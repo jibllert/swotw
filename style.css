@@ -1,0 +1,84 @@
+.menuBar {
+    background-color: rgb(68, 142, 155);
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-top: 0;
+    border-style: ridge;
+    border-color: cadetblue;
+    width: 50%;
+}
+
+.menuBar h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menuBar table {
+    border-spacing: 10px;
+}
+
+.menuBar table th {
+    border-style: ridge;
+    border-color: cadetblue;
+    background-color: rgb(109, 199, 202);
+    margin-left: 10px;
+}
+
+.menuBar table th:hover {
+    border-style: ridge;
+    border-color: cadetblue;
+    background-color: aquamarine;
+    margin-left: 10px;
+}
+
+.menuBar table th a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: none;
+    color: black;
+    margin: 5px;
+}
+
+.std_border {
+    background-color: cadetblue;
+    border-style: ridge;
+    border-color: cadetblue;
+    padding: 10px;
+}
+
+.std_align {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.std_format ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.std_format {
+    border-style: ridge;
+    border-color: cadetblue;
+    background-color: cadetblue;
+    width: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 35%;
+}
+
+.description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    width: 35%;
+}
+

@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Seven New Wonders of the World</title>
         <link rel="stylesheet" href="../style.css">
     </head>
     <body>
@@ -7,15 +8,15 @@
         <div class="menuBar std_align">
             <h1 class="std_align">The Seven New Wonders of the World</h1>
             <table>
-                <th><a href="home">Home</a></th>
-                <th><a href="wonders/gpog.html">Great Pyrimid of Giza</a></th>
-                <th><a href="wonders/gwoc.html">Great wall of China</a></th>
-                <th><a href="wonders/petra.html">Petra</a></th>
-                <th><a href="wonders/colosseum.html">The Colosseum</a></th>
-                <th><a href="wonders/itza.html">Chichén Itzá</a></th>
-                <th><a href="wonders/machu.html">Machu Picchu</a></th>
-                <th><a href="wonders/taj.html">Taj Mahal</a></th>
-                <th><a href="wonders/christ.html">Christ the Redeemer</a></th>
+                <th><a href="/home.html">Home</a></th>
+                <th><a href="/wonders/gpog.html">Great Pyrimid of Giza</a></th>
+                <th><a href="/wonders/gwoc.html">Great wall of China</a></th>
+                <th><a href="/wonders/petra.html">Petra</a></th>
+                <th><a href="/wonders/colosseum.html">The Colosseum</a></th>
+                <th><a href="/wonders/itza.html">Chichén Itzá</a></th>
+                <th><a href="/wonders/machu.html">Machu Picchu</a></th>
+                <th><a href="/wonders/taj.html">Taj Mahal</a></th>
+                <th><a href="/wonders/christ.html">Christ the Redeemer</a></th>
             </table>
         </div>
         <h1 class="std_format">The Great Pyrimid of Giza</h1>
@@ -35,11 +36,12 @@
         <div class="std_format" id="form">
             <p>Please fill out the following form if you have visited</p>
             <form onsubmit="submitForm();">
-                Firstname: <input id="form_firstname"> Surname: <input id="form_surname"><br>
-                Email: <input id="form_email"><br>
-                Date of visit: <input id="form_email"><br>
-                Write a recount of your experience bellow <input id="form_email" style="height: 100px; width: 100%;">
-                <input type="submit">
+                <div class="form_question">Firstname: <input id="form_firstname"><br><span class="form_error">Required Question</span></div>
+                <div class="form_question"> Surname: <input id="form_surname"><br><span class="form_error">Required Question</span></div>
+                <div class="form_question">Email: <input id="form_email"><br><span class="form_error">Required Question</span></div>
+                <div class="form_question">Date of visit: <input id="form_date"><br><span class="form_error">Required Question</span></div>
+                <div class="form_question">Write a recount of your experience bellow <input id="form_recount" style="height: 100px; width: 100%;"><br><span class="form_error">Required Question</span></div>
+                <input id="form_submit" type="button" value="Submit">
             </form>
         </div>
     </body>

@@ -82,3 +82,14 @@
     width: 35%;
 }
 
+.form_question {
+    padding: 5px;
+}
+
+.form_error {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: red;
+    opacity: 0;
+}
